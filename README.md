@@ -1,27 +1,31 @@
-# React + TypeScript + Vite
+# Aplicativo de Lista de Tarefas Genérico
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um aplicativo de lista de tarefas genérico com funcionalidades básicas, desenvolvido com Tailwind CSS.
 
-Currently, two official plugins are available:
+## Funcionalidades Principais
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Adicionar tarefas
+- Marcar tarefas como concluídas
+- Excluir tarefas
 
-## Expanding the ESLint configuration
+## Uso
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Para adicionar uma nova tarefa, basta digitar e ao fim teclar Enter.
+2. Para marcar uma tarefa como concluída, clique na caixa de seleção ao lado da tarefa.
+3. Para excluir uma tarefa, clique no botão "Excluir" ao lado dela.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Contribuição
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Sinta-se à vontade para contribuir para este projeto. Basta seguir estas etapas:
+
+1. Faça um fork do repositório
+2. Crie uma branch para sua contribuição (`git checkout -b minha-contribuicao`)
+3. Faça suas alterações e commit (`git commit -m 'Adicionei novas funcionalidades'`)
+4. Push para a branch (`git push origin minha-contribuicao`)
+5. Abra um pull request
+
+## Licença
+
+Este projeto é licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+
