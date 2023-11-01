@@ -2,7 +2,7 @@
 
 Este é um aplicativo de lista de tarefas genérico com funcionalidades básicas, desenvolvido com Tailwind CSS.
 
-# Você pode conferir a versão on line em: 
+# Você pode conferir a versão online em: 
 [live](https://jotatodoapp.netlify.app/)
 
 ## Funcionalidades Principais
