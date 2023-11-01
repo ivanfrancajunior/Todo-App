@@ -1,4 +1,4 @@
-# Aplicativo de Lista de Tarefas Genérico
+# Aplicativo de Lista de Tarefas 
 
 Este é um aplicativo de lista de tarefas genérico com funcionalidades básicas, desenvolvido com Tailwind CSS.
 
