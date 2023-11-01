@@ -16,7 +16,7 @@ export const InputItems = ({ onEnter }: Props) => {
       <input
         type="text"
         placeholder="+"
-        className=" flex items-center justify-start gap-4 px-3 py-2 min-w-[300px] rounded-md bg-slate-800 my-4 placeholder:text-green-600  text-xl"
+        className=" flex items-center justify-start gap-4 px-3 py-2 min-w-[300px] rounded-md bg-zinc-900 my-4 placeholder:text-green-600 text-2xl "
         value={text}
         onChange={(e) => setText(e.target.value)}
         onKeyUp={() => null}

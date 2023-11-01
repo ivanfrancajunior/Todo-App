@@ -2,12 +2,10 @@ import { useState } from "react";
 import { todoItem } from "./types/Item";
 import ListItem from "./components/ListItem";
 import { InputItems } from "./components/InputItems";
+import Header from "./components/Header";
 
 function App() {
-  const [list, setList] = useState<todoItem[]>([
-    { id: 1, task: "Tarefa 1", isCheck: true },
-    { id: 2, task: "Tarefa 2", isCheck: false },
-  ]);
+  const [list, setList] = useState<todoItem[]>([]);
 
   const handleAddtask = (taskName: string) => {
     const newList = [...list];
@@ -21,8 +19,8 @@ function App() {
   };
 
   return (
-    <main className="container flex flex-col items-center justify-center mt-4">
-      <p className="my-10 italic ">Adicione suas tarefas</p>
+    <main className="container flex flex-col items-center justify-center">
+      <Header />
       <InputItems onEnter={handleAddtask} />
 
       <hr className="w-5 my-4" />
