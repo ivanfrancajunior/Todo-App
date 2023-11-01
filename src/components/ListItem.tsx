@@ -10,7 +10,7 @@ const ListItem = ({ item }: Props) => {
   return (
     <div
       key={item.id}
-      className="flex items-center p-2 my-2 only:justify-between gap-5  w-[320px] rounded-md bg-[#171717]  "
+      className="flex items-center p-2 my-2 only:justify-between gap-5  w-full max-w-[400px] md:min-w-[500px] rounded-md bg-[#171717]  "
     >
       <div className="flex items-center justify-center ml-5 ">
         {" "}

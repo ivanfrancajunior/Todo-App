@@ -19,11 +19,10 @@ function App() {
   };
 
   return (
-    <main className="container flex flex-col items-center justify-center">
+    <main className="container flex flex-col items-center justify-center ">
       <Header />
       <InputItems onEnter={handleAddtask} />
 
-      <hr className="w-5 my-4" />
       {list && list.map((item, index) => <ListItem key={index} item={item} />)}
     </main>
   );
